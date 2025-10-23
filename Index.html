@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Data Form</title>
+</head>
+<body bgcolor="#b30000" text="white">
+
+    <h3 style="background-color: blue; color: white; width: 150px; padding: 5px;">Personal Data</h3>
+
+    <table border="0" cellpadding="10" cellspacing="0" width="100%" bgcolor="#e69900">
+        <tr>
+            <td width="15%"><b>Your Name</b></td>
+            <td>
+                <table border="0" cellpadding="5" cellspacing="0">
+                    <tr>
+                        <td align="right" width="120">first name :</td>
+                        <td><input type="text" name="fname" placeholder="ex. ahmed" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td align="right">second name :</td>
+                        <td><input type="text" name="sname" placeholder="ex. bahnasy" size="30"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+
+    <form>
+        <table cellpadding="5" cellspacing="0">
+            <tr>
+                <td align="right" width="120">your phone :</td>
+                <td><input type="text" name="phone" size="30"></td>
+            </tr>
+            <tr>
+                <td align="right">Email :</td>
+                <td><input type="email" name="email" size="30"></td>
+            </tr>
+            <tr>
+                <td align="right">password :</td>
+                <td><input type="password" name="password" size="30"></td>
+            </tr>
+            <tr>
+                <td align="right">re-password :</td>
+                <td><input type="password" name="repassword" size="30"></td>
+            </tr>
+        </table>
+
+        <br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br><br>
+
+        <label>Status:</label><br>
+        <input type="checkbox" name="status" value="student"> Student
+        <input type="checkbox" name="status" value="graduated"> Graduated
+        <br><br>
+
+        <label>University:</label>
+        <select name="university">
+            <option value="AUC">AUC</option>
+            <option value="Cairo University">Cairo University</option>
+            <option value="Ain Shams">Ain Shams</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="SUBMIT">
+    </form>
+
+</body>
+</html>
